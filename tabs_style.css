@@ -52,15 +52,3 @@ input:checked + label{
 input:checked + label + .tab{
     display: block;
 }
-
-@media (max-width: 450px){
-    label{
-        width: 100%;
-        margin-left: 40px;
-        order: initial;
-    }
-
-    .tab{
-        order: initial;
-    }
-}
